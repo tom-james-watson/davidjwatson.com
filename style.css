@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  color: #111418;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#content {
+  margin: 20px;
+  max-width: 400px;
+}
+
+#img-wrapper {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+h1 {
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+h3 {
+  margin-top: 0;
+  color: #5f6b7c;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    flex-direction: column;
+  }
+}
